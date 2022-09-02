@@ -1,13 +1,13 @@
 {
   "name": "09markdowngenerator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Markdown Generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "John Lopez",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^8.2.4"
