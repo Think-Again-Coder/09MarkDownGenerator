@@ -3,11 +3,22 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
 
+
+const questions = {
+    type: 'checkbox', 
+    name: 'license',
+    choices: ["MIT", "GPLv3", "GPL"],
+    message: 'Pick your License.'
+};
+
 // TODO: Create an array of questions for user input
-const questions = ['What is the Title of your Project?'];
+ function questions () [(`What is the Title of your Project?`)];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+const filename = "README.md";
+
+function writeToFile(filename, data) { 
+    
     console.log(this);
 }
 
