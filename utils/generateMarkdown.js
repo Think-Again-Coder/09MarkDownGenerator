@@ -18,7 +18,7 @@ function renderLicenseBadge(license) {
 
 // This function returns the license section of the README file
 // If there is no license, an empty string is returned
-function renderLicenseSection(license) {
+function renderLicenseBadge(license) {
   if (license !== 'None') {
     return `## This application is under the ${license}.`
   } else `${renderLicenseBadge}`;

@@ -18,12 +18,12 @@ const questions = [
     },
     {
     type: 'input',
-    name: 'usage',
+    name: 'installation',
     message: 'Enter your instructions for installation:'
     }, 
     {
     type: 'input',
-    name: 'installation',
+    name: 'usage',
     message: 'Please enter your instructions for using application:'
     },
     {
@@ -52,6 +52,9 @@ const questions = [
     choices: ["MIT", "GPLv3", "GPL"],
     message: 'Finally, choose what type of license to apply: '
     },
+    {message: 
+    'The READMe is being generated . . . Check root folder.'
+    }
 ]; 
 
 // function to write the README file

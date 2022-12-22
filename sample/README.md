@@ -3,7 +3,7 @@
   ## Description:  
   ### This is an example of the README file generated in Markdown for the user of this application. Please see the Table of Contents below.
 
-  ![ Image](./Assets/Insert-Image-Here.png "Image description")
+  ![ Image](../Assets/Insert-Image-Here.png "Image description")
   ---  
   ## Table of Contents: 
 
@@ -24,7 +24,7 @@
   ### Type 'npm test' in terminal to run testing. 
   
   ## Contributions by:  
-  Please see documentaion link. 
+  BCS Admin Team  
   
   ## License Type: 
 
