@@ -2,7 +2,6 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
-// const { error } = require("console");
 
 //Questions for the the user input below in an array. 
 const questions = [
@@ -51,9 +50,6 @@ const questions = [
     name: 'License type',
     choices: ["MIT", "GPLv3", "GPL"],
     message: 'Finally, choose what type of license to apply: '
-    },
-    {message: 
-    'The READMe is being generated . . . Check root folder.'
     }
 ]; 
 
